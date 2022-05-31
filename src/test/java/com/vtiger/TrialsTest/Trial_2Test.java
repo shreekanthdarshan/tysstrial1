@@ -3,7 +3,7 @@ package com.vtiger.TrialsTest;
 import org.testng.annotations.Test;
 
 public class Trial_2Test {
-	@Test
+	@Test(groups = "sanity")
 	
 	public void employeeName() {
 		System.out.println("Shree");
